@@ -49,7 +49,7 @@ The methodology section describes the approach used to explore the relationship 
 
 The first step involves extracting meaningful features from the predictive processing dataset. This helps in understanding the relationship between the variables and the decision-making processes.
 
-### Imitation Learning Models
+### Imitation Learning Solution
 
 1. **Behavioral Cloning (BC)**:
     - Implemented in `RL_PredictiveProcessing.ipynb`.
@@ -59,8 +59,7 @@ The first step involves extracting meaningful features from the predictive proce
     - Implemented in `BIRL_PredictiveProcessing.ipynb` and `Updated_BIRL_PredictiveProcessing.py`.
     - A Bayesian IRL approach with several modifications to capture the dynamic evolution of decision-making over time.
 
-### Statistical Analysis
-
+3. **Statistical Analysis**: 
     - Implemented in `Analysis_RL.ipynb`.
     - Conducts statistical analysis using ANOVA to determine the significance of the relationships between the extracted features and psychological scales.
     - Uses machine learning algorithms like XGBoost and RandomForest to find and validate relationships between variables.
