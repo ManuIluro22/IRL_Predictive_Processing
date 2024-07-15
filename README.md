@@ -52,7 +52,7 @@ The first step involves extracting meaningful features from the predictive proce
 ### Imitation Learning Models
 
 1. **Behavioral Cloning (BC)**:
-    - Implemented in `rl_predictiveprocessing.ipynb`.
+    - Implemented in `RL_PredictiveProcessing.ipynb`.
     - A supervised learning approach that mimics the decision-making process of experts by learning a policy from the state-action pairs.
 
 2. **Inverse Reinforcement Learning (IRL)**:
@@ -61,7 +61,7 @@ The first step involves extracting meaningful features from the predictive proce
 
 ### Statistical Analysis
 
-- **Analysis_RL.ipynb**:
+    - Implemented in `Analysis_RL.ipynb`.
     - Conducts statistical analysis using ANOVA to determine the significance of the relationships between the extracted features and psychological scales.
     - Uses machine learning algorithms like XGBoost and RandomForest to find and validate relationships between variables.
 
